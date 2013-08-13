@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<rts:RtsProfile rts:abstract="RT System created by rtcryo." rts:creationDate="2013-08-01T13:44:59" rts:id="RTSystem :Sugar Sweet Robotics.DefaultSystem01.1.0" rts:updateDate="2013-08-01T13:44:59" rts:version="0.2" xmlns:rts="http://www.openrtp.org/namespaces/rts" xmlns:rtsExt="http://www.openrtp.org/namespaces/rts_ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<rts:RtsProfile rts:abstract="RT System created by rtcryo." rts:creationDate="2013-08-13T18:08:47" rts:id="RTSystem :Sugar Sweet Robotics.DefaultSystem01.1.0" rts:updateDate="2013-08-13T18:08:47" rts:version="0.2" xmlns:rts="http://www.openrtp.org/namespaces/rts" xmlns:rtsExt="http://www.openrtp.org/namespaces/rts_ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <rts:Components rts:compositeType="None" rts:id="RTC:ysuga_net:Exampl:MobileRobotController:1.0.0" rts:instanceName="MobileRobotController0" rts:isRequired="true" rts:pathUri="localhost/MobileRobotController0.rtc" rtsExt:visible="true">
         <rts:DataPorts rts:name="pos" rtsExt:visible="true"/>
         <rts:DataPorts rts:name="joy" rtsExt:visible="true"/>
@@ -8,7 +8,7 @@
         <rts:ConfigurationSets rts:id="default"/>
         <rts:ExecutionContexts rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0"/>
         <rtsExt:Location rtsExt:direction="DOWN" rtsExt:height="0" rtsExt:width="0" rtsExt:x="0" rtsExt:y="0"/>
-        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000086000000000102000000000d3137322e31362e3134392e3100000afc00000031afabcb0000000020383132bd00000001000000000000000100000008526f6f74504f4100000000080000000c0000000014000000000000020000000100000020000000000001000100000002050100010001002000010109000000010001010000000026000000020002"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000086000000000102000000000d3137322e31362e3134392e3100000afc00000031afabcb000000002076eee5f400000001000000000000000100000008526f6f74504f4100000000080000000c0000000014000000000000020000000100000020000000000001000100000002050100010001002000010109000000010001010000000026000000020002"/>
     </rts:Components>
     <rts:Components rts:activeConfigurationSet="default" rts:compositeType="None" rts:id="RTC:ysuga_net:Exampl:VirtualJoystick:1.0.0" rts:instanceName="VirtualJoystick0" rts:isRequired="true" rts:pathUri="localhost/VirtualJoystick0.rtc" rtsExt:visible="true">
         <rts:DataPorts rts:name="out" rtsExt:visible="true"/>
@@ -20,7 +20,7 @@
         </rts:ConfigurationSets>
         <rts:ExecutionContexts rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0"/>
         <rtsExt:Location rtsExt:direction="DOWN" rtsExt:height="0" rtsExt:width="0" rtsExt:x="0" rtsExt:y="0"/>
-        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000086000000000102000000000d3137322e31362e3134392e3100000afc00000031afabcb0000000020383132bd00000001000000000000000100000008526f6f74504f410000000008000000130000000014000000000000020000000100000020000000000001000100000002050100010001002000010109000000010001010000000026000000020002"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000086000000000102000000000d3137322e31362e3134392e3100000afc00000031afabcb000000002076eee5f400000001000000000000000100000008526f6f74504f4100000000080000001a0000000014000000000000020000000100000020000000000001000100000002050100010001002000010109000000010001010000000026000000020002"/>
     </rts:Components>
     <rts:Components rts:activeConfigurationSet="default" rts:compositeType="None" rts:id="RTC:ysuga_net:Example:MobileRobot:1.0.0" rts:instanceName="MobileRobot0" rts:isRequired="true" rts:pathUri="localhost/MobileRobot0.rtc" rtsExt:visible="true">
         <rts:DataPorts rts:name="vel" rtsExt:visible="true"/>
@@ -37,9 +37,9 @@
         </rts:ConfigurationSets>
         <rts:ExecutionContexts rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0"/>
         <rtsExt:Location rtsExt:direction="DOWN" rtsExt:height="0" rtsExt:width="0" rtsExt:x="0" rtsExt:y="0"/>
-        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000086000000000102000000000d3137322e31362e3134392e3100000afc00000031afabcb0000000020383132bd00000001000000000000000100000008526f6f74504f410000000008000000170000000014000000000000020000000100000020000000000001000100000002050100010001002000010109000000010001010000000026000000020002"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000086000000000102000000000d3137322e31362e3134392e3100000afc00000031afabcb000000002076eee5f400000001000000000000000100000008526f6f74504f410000000008000000130000000014000000000000020000000100000020000000000001000100000002050100010001002000010109000000010001010000000026000000020002"/>
     </rts:Components>
-    <rts:DataPortConnectors rts:connectorId="daadb214-e15d-4681-a1f8-2866ccb9f51d" rts:dataType="IDL:RTC/TimedVelocity2D:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="velvel" rts:pushInterval="0.0" rts:subscriptionType="new" rtsExt:visible="true">
+    <rts:DataPortConnectors rts:connectorId="1bea6bb7-815a-4cb1-9f04-51fdf0adceba" rts:dataType="IDL:RTC/TimedVelocity2D:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="velvel" rts:pushInterval="0.0" rts:subscriptionType="new" rtsExt:visible="true">
         <rts:sourceDataPort rts:componentId="RTC:ysuga_net:Exampl:MobileRobotController:1.0.0" rts:instanceName="MobileRobotController0" rts:portName="MobileRobotController0.vel">
             <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/MobileRobotController0.rtc"/>
         </rts:sourceDataPort>
@@ -52,7 +52,7 @@
         <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
         <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
     </rts:DataPortConnectors>
-    <rts:DataPortConnectors rts:connectorId="1d78a389-d4f5-45fd-92db-b1faa0505741" rts:dataType="IDL:RTC/TimedLongSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="outjoy" rts:pushInterval="0.0" rts:subscriptionType="new" rtsExt:visible="true">
+    <rts:DataPortConnectors rts:connectorId="8e82a0b9-3196-43c9-827a-4f39f09a2081" rts:dataType="IDL:RTC/TimedLongSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="joyout" rts:pushInterval="0.0" rts:subscriptionType="new" rtsExt:visible="true">
         <rts:sourceDataPort rts:componentId="RTC:ysuga_net:Exampl:VirtualJoystick:1.0.0" rts:instanceName="VirtualJoystick0" rts:portName="VirtualJoystick0.out">
             <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/VirtualJoystick0.rtc"/>
         </rts:sourceDataPort>
@@ -65,7 +65,7 @@
         <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
         <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
     </rts:DataPortConnectors>
-    <rts:DataPortConnectors rts:connectorId="04adf89f-021b-42be-98b9-ebfa1f2d30fd" rts:dataType="IDL:RTC/TimedPose2D:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="pospos" rts:pushInterval="0.0" rts:subscriptionType="new" rtsExt:visible="true">
+    <rts:DataPortConnectors rts:connectorId="11edf64e-ba44-4b5b-a6f5-610a81828fe2" rts:dataType="IDL:RTC/TimedPose2D:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="pospos" rts:pushInterval="0.0" rts:subscriptionType="new" rtsExt:visible="true">
         <rts:sourceDataPort rts:componentId="RTC:ysuga_net:Example:MobileRobot:1.0.0" rts:instanceName="MobileRobot0" rts:portName="MobileRobot0.pos">
             <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/MobileRobot0.rtc"/>
         </rts:sourceDataPort>
@@ -78,7 +78,7 @@
         <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
         <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
     </rts:DataPortConnectors>
-    <rts:DataPortConnectors rts:connectorId="ffd35f64-3fd8-43ea-a48a-a7f1870d55a4" rts:dataType="IDL:RTC/TimedBooleanSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="bumperbumper" rts:pushInterval="0.0" rts:subscriptionType="new" rtsExt:visible="true">
+    <rts:DataPortConnectors rts:connectorId="5d468970-6e42-4121-933e-c70295ed06bb" rts:dataType="IDL:RTC/TimedBooleanSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="bumperbumper" rts:pushInterval="0.0" rts:subscriptionType="new" rtsExt:visible="true">
         <rts:sourceDataPort rts:componentId="RTC:ysuga_net:Example:MobileRobot:1.0.0" rts:instanceName="MobileRobot0" rts:portName="MobileRobot0.bumper">
             <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/MobileRobot0.rtc"/>
         </rts:sourceDataPort>

@@ -1,6 +1,6 @@
 MobileRobot: {description: '', git: 'https://github.com/sugarsweetrobotics/MobileRobotSim.git',
   hash: be9083ea089f6b2da1ed798067c9ceefe1238a4b}
 MobileRobotController: {description: '', git: 'https://github.com/sugarsweetrobotics/MobileRobotController.git',
-  hash: c5f6cc807c96b5c8b6933b2a34a7226e54f953f4}
+  hash: 3e54eef47ae15fe3e9ef20155a7d4f017d2103d3}
 VirtualJoystick: {description: '', git: 'https://github.com/sugarsweetrobotics/VirtualJoystick.git',
-  hash: db5cb135778908db9b668cad4386f39a256d9161}
+  hash: e6f888d26256c7b300078eb73fa6ce0ac162f9a4}
